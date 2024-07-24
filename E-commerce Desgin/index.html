@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ecommerce Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./framework.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">
+          Esty
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Gift Mode</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Summer Sports Staples</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Baby</a></li>
+                <li><a class="dropdown-item" href="#">Accessories </a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Art & Collectibles</a></li>
+                <li><a class="dropdown-item" href="#">Clothing </a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Home & Living</a></li>
+                <li><a class="dropdown-item" href="#">Jewllery </a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Gits</a></li>
+                <li><a class="dropdown-item" href="#">Electornics & Accessories</a></li>
+  
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='#'> Home Favourites</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='#'>Registry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href='#'>Gift Cards </a>
+            </li>
+          </ul>
+          <div class="search-and-icons">
+            <form class="d-flex mb-2 me-2" role="search">
+              <input class="form-control me-2" type="search" aria-label="Search" />
+            </form>
+            <div class="user-icons d-flex mb-2">
+              <div class="profile cp">
+                <a class="text-decoration-none" href="#"><i class="bi bi-person"></i></a>
+              </div>
+              <div class="wishlist cp">
+                <a class="text-decoration-none" href="#"><i class="bi bi-heart"></i></a>
+              </div>
+              <div class="cart cp">
+                <a class="text-decoration-none" href="#"><i class="bi bi-cart3"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!---------------------------------- Check out the season's biggest trends --------------------------------------->
+    <section class="season-trands mt-md-5" id="season-trends">
+      <div class="container">
+        <h1 class="season-trends-title text-center">Check out the season's biggest trends</h1>
+        <div class="trends-wrapper my-md-5">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 col-sm-6 overflow-hidden">
+              <div class="product-wrapper d-flex justify-content-center align-items-center flex-column p-4">
+                <img src="https://i.etsystatic.com/20751758/r/il/676a7f/5903376684/il_300x300.5903376684_gu4q.jpg" class="hover-enlarge rounded-circle img-fluid" alt="product" />
+                <h6 class="product-name p2 d-flex justify-content-center align-items-center" id="product-name"><a class="mt-2 text-center text-decoration-none" href="#">Product Name</a></h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 overflow-hidden ">
+              <div class="product-wrapper d-flex justify-content-center align-items-center flex-column p-4">
+                <img src="https://i.etsystatic.com/5286352/c/1212/1212/463/871/il/74170b/6139856959/il_300x300.6139856959_4b9o.jpg" class="rounded-circle img-fluid" alt="product" />
+                <h6 class="product-name p2 d-flex justify-content-center align-items-center" id="product-name"><a class="mt-2 text-center text-decoration-none" href="#">Product Name</a></h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 overflow-hidden ">
+              <div class="product-wrapper d-flex justify-content-center align-items-center flex-column p-4">
+                <img src="https://i.etsystatic.com/50810303/c/684/684/190/0/il/22ee22/6099149517/il_300x300.6099149517_iadh.jpg" class="rounded-circle img-fluid" alt="product" />
+                <h6 class="product-name p2 d-flex justify-content-center align-items-center" id="product-name"><a class="mt-2 text-center text-decoration-none" href="#">Product Name</a></h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 overflow-hidden ">
+              <div class="product-wrapper d-flex justify-content-center align-items-center flex-column p-4">
+                <img src="https://i.etsystatic.com/25629089/r/il/7705fc/5215013073/il_300x300.5215013073_c3zu.jpg" class="rounded-circle img-fluid" alt="product" />
+                <h6 class="product-name p2 d-flex justify-content-center align-items-center" id="product-name"><a class="mt-2 text-center text-decoration-none" href="#">Product Name</a></h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 overflow-hidden">
+              <div class="product-wrapper d-flex justify-content-center align-items-center flex-column p-4">
+                <img src="https://i.etsystatic.com/24611060/r/il/20d8d4/5986621082/il_300x300.5986621082_r0sl.jpg" class="rounded-circle img-fluid" alt="product" />
+                <h6 class="product-name p2 d-flex justify-content-center align-items-center" id="product-name"><a class="mt-2 text-center text-decoration-none" href="#">Product Name</a></h6>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-sm-6 overflow-hidden ">
+              <div class="product-wrapper d-flex justify-content-center align-items-center flex-column p-4">
+                <img src="https://i.etsystatic.com/11167603/c/1825/1825/530/0/il/9a7a86/4948437417/il_300x300.4948437417_dmpk.jpg" class="rounded-circle img-fluid" alt="product" />
+                <h6 class="product-name p2 d-flex justify-content-center align-items-center" id="product-name"><a class="mt-2 text-center text-decoration-none" href="#">Product Name</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------- Recently viewed & more --------------------------------------->
+    <section class="recently-viewed" id="recently-viewed">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-title fit-text">Recently viewed & more</p>
+        </div>
+        <div class="row gy-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+              <div class="card recent-view-wrapper position-relative overflow-hidden ">
+                <img src="https://i.etsystatic.com/41680084/r/il/f09928/5191407963/il_340x270.5191407963_rurr.jpg" alt="recent-products" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------- Handmade, handpicked, and designed for you--------------------------------------->
+    <section class="handmade" id="handmade">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-4 col-sm-6 d-flex">
+            <div class="handmade-box1 d-flex justify-content-center align-items-center flex-column">
+              <p class="handmade-text fit-text">Handmade, handpicked, and designed for you</p>
+              <a href="#" class="text-decoration-none find-unique-shops"><span>Shop these unique finds</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="text-decoration-none">
+              <div class="card overflow-hidden handmade-box position-relative">
+                <img class="handmade-img" src="https://i.etsystatic.com/35531138/r/il/1a0eef/6149481551/il_680x540.6149481551_p0lj.jpg" alt="" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="handmade-price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="text-decoration-none">
+              <div class="card overflow-hidden handmade-box position-relative">
+                <img class="handmade-img" src="https://i.etsystatic.com/35531138/r/il/1a0eef/6149481551/il_680x540.6149481551_p0lj.jpg" alt="" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="handmade-price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="text-decoration-none">
+              <div class="card overflow-hidden handmade-box position-relative">
+                <img class="handmade-img" src="https://i.etsystatic.com/35531138/r/il/1a0eef/6149481551/il_680x540.6149481551_p0lj.jpg" alt="" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="handmade-price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="text-decoration-none">
+              <div class="card overflow-hidden handmade-box position-relative">
+                <img class="handmade-img" src="https://i.etsystatic.com/35531138/r/il/1a0eef/6149481551/il_680x540.6149481551_p0lj.jpg" alt="" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="handmade-price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="text-decoration-none">
+              <div class="card overflow-hidden handmade-box position-relative">
+                <img class="handmade-img" src="https://i.etsystatic.com/35531138/r/il/1a0eef/6149481551/il_680x540.6149481551_p0lj.jpg" alt="" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="handmade-price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="text-decoration-none">
+              <div class="card overflow-hidden handmade-box position-relative">
+                <img class="handmade-img" src="https://i.etsystatic.com/35531138/r/il/1a0eef/6149481551/il_680x540.6149481551_p0lj.jpg" alt="" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="handmade-price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="#" class="text-decoration-none">
+              <div class="card overflow-hidden handmade-box position-relative">
+                <img class="handmade-img" src="https://i.etsystatic.com/35531138/r/il/1a0eef/6149481551/il_680x540.6149481551_p0lj.jpg" alt="" />
+                <div class="card-body">
+                  <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                  <p class="handmade-price">£6.77 £19.3</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------------------- Shop gifts perfect for the occasion! ----------------------------------------------->
+    <section>
+      <div class="carousel-container">
+        <div class="carousel-inner">
+            <div class="track">
+                <div class="card-container">
+                    <div class="card position-relative">
+                      <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+                      <div class="middle br">
+                        <a href='#' class="text text-decoration-none">Birthday</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                  <div class="card position-relative">
+                    <img src="https://i.etsystatic.com/ij/a48d4e/5972076582/ij_280x280.5972076582_sc9q9t74.png?version=0" alt="" class="card-img">
+                    <div class="middle br">
+                      <a href='#' class="text text-decoration-none">Birthday</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="card-container">
+                <div class="card position-relative">
+                  <img src="https://i.etsystatic.com/ij/1ce78a/6020068903/ij_280x280.6020068903_nnpou697.png?version=0" alt="" class="card-img">
+                  <div class="middle br">
+                    <a href='#' class="text text-decoration-none">Birthday</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card-container">
+              <div class="card position-relative">
+                <img src="https://i.etsystatic.com/ij/28fb0f/5955429049/ij_280x280.5955429049_ck97qq0h.jpg?version=0" alt="" class="card-img">
+                <div class="middle br">
+                  <a href='#' class="text text-decoration-none">Birthday</a>
+                </div>
+              </div>
+          </div>
+          <div class="card-container">
+            <div class="card position-relative">
+              <img src="https://i.etsystatic.com/ij/5cea3c/6020131461/ij_280x280.6020131461_k09abfhi.png?version=0" alt="" class="card-img">
+              <div class="middle br">
+                <a href='#' class="text text-decoration-none">Birthday</a>
+              </div>
+            </div>
+        </div>
+        <div class="card-container">
+          <div class="card position-relative">
+            <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+            <div class="middle br">
+              <a href='#' class="text text-decoration-none">Birthday</a>
+            </div>
+          </div>
+      </div>
+      <div class="card-container">
+        <div class="card position-relative">
+          <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+          <div class="middle br">
+            <a href='#' class="text text-decoration-none">Birthday</a>
+          </div>
+        </div>
+    </div>
+    <div class="card-container">
+      <div class="card position-relative">
+        <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+        <div class="middle br">
+          <a href='#' class="text text-decoration-none">Birthday</a>
+        </div>
+      </div>
+  </div>
+  <div class="card-container">
+    <div class="card position-relative">
+      <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+      <div class="middle br">
+        <a href='#' class="text text-decoration-none">Birthday</a>
+      </div>
+    </div>
+</div>
+<div class="card-container">
+  <div class="card position-relative">
+    <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+    <div class="middle br">
+      <a href='#' class="text text-decoration-none">Birthday</a>
+    </div>
+  </div>
+</div>
+<div class="card-container">
+  <div class="card position-relative">
+    <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+    <div class="middle br">
+      <a href='#' class="text text-decoration-none">Birthday</a>
+    </div>
+  </div>
+</div>
+<div class="card-container">
+  <div class="card position-relative">
+    <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+    <div class="middle br">
+      <a href='#' class="text text-decoration-none">Birthday</a>
+    </div>
+  </div>
+</div>
+<div class="card-container">
+  <div class="card position-relative">
+    <img src="https://i.etsystatic.com/ij/d9c329/6026986271/ij_280x280.6026986271_1q8u3oc5.png?version=0" alt="" class="card-img">
+    <div class="middle br">
+      <a href='#' class="text text-decoration-none">Birthday</a>
+    </div>
+  </div>
+</div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="arrow right material-icons"><span>keyboard_arrow_right</span></div>
+            <div class="arrow left material-icons"><span>keyboard_arrow_left</span></div>
+        </div>
+      </div>
+    </section>
+<!--------------------------------------Discover Chief Gifting Officer Drew Barrymore's go-to gifts for summer ----------------- -->
+    <section class="chief-gifts" id="chief-gifts">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-title fit-text">Discover Chief Gifting Officer Drew Barrymore's go-to gifts for summer</p>
+        </div>
+
+        <div class="chief-gifts-wrapper p-2">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/6770284/r/il/a08403/5795749795/il_300x300.5795749795_iy2x.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/35653962/r/il/938126/3870770146/il_300x300.3870770146_ialm.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/36729687/c/733/733/264/443/il/fbbe9e/5573984483/il_300x300.5573984483_ia07.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/35653962/r/il/938126/3870770146/il_300x300.3870770146_ialm.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/6770284/r/il/a08403/5795749795/il_300x300.5795749795_iy2x.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/6770284/r/il/a08403/5795749795/il_300x300.5795749795_iy2x.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/6770284/r/il/a08403/5795749795/il_300x300.5795749795_iy2x.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card overflow-hidden box b br">
+                  <img src="https://i.etsystatic.com/6770284/r/il/a08403/5795749795/il_300x300.5795749795_iy2x.jpg" alt="gifts" />
+                  <div class="card-body">
+                    <a href="#" class="text-decoration-none"><i class="bi bi-heart heart-icon"></i></a>
+                    <p class="price">£6.77 £19.3</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--------------------------------------Shop our selections ------------------------------------->
+    <section class="shop" id="shop">
+      <div class="container">
+        <div class="section-heading mb-3">
+          <p class="section-title fit-text mb-0">Shop our selections</p>
+          <span class="shop-subtitle">Curated collections hand-picked by Etsy editors</span>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="#" class='text-decoration-none'>
+              <div class="card box overflow-hidden cp">
+                <img src="https://i.etsystatic.com/ij/e832a0/5390720699/ij_340x270.5390720699_d39gep5d.jpg?version=0" alt="gifts for her" />
+                <div class="card-body">
+                  <h5 class="card-title">Gifts for Her</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="#" class='text-decoration-none'>
+              <div class="card box overflow-hidden cp">
+                <img src="https://i.etsystatic.com/25535160/r/il/3c573e/3614201587/il_340x270.3614201587_lrhj.jpg" alt="gifts for her" />
+                <div class="card-body">
+                  <h5 class="card-title">Gifts</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="#" class='text-decoration-none'>
+              <div class="card box overflow-hidden cp">
+                <img src="https://i.etsystatic.com/ij/444120/5279334217/ij_340x270.5279334217_qejbqsee.jpg?version=0" alt="gifts for her" />
+                <div class="card-body">
+                  <h5 class="card-title">Gifts for kids</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="#" class='text-decoration-none'>
+              <div class="card box overflow-hidden cp">
+                <img src="https://i.etsystatic.com/ij/63cdbd/5224176582/ij_340x270.5224176582_75ctgcgb.jpg?version=0" alt="gifts for her" />
+                <div class="card-body">
+                  <h5 class="card-title">Gifts for pits</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="#" class='text-decoration-none'>
+              <div class="card box overflow-hidden cp">
+                <img src="https://i.etsystatic.com/ij/6ff1e8/5272025101/ij_340x270.5272025101_3jeaplaq.jpg?version=0" alt="gifts for her" />
+                <div class="card-body">
+                  <h5 class="card-title">Gifts for him</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <a href="#" class='text-decoration-none'>
+              <div class="card box overflow-hidden cp">
+                <img src="https://i.etsystatic.com/ij/63cdbd/5224176582/ij_340x270.5224176582_75ctgcgb.jpg?version=0" alt="gifts for her" />
+                <div class="card-body">
+                  <h5 class="card-title">Gifts under 24</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--------------------------------------Discover shops in the UK ------------------------------------->
+    <section class="discover-shops" id='discover-shops'>
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="discover-shops-text d-flex justify-content-center align-items-center flex-column">
+                <span class="discover-shops-subtitle fit-text">Local finds? Etsy has it.</span>
+                <p class="discover-shops-title fit-text fw-bold">Discover shops in the UK</p>
+                <a href="#" class="text-decoration-none local-makers">Shop from local makers</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card discover-shop-wrapper br overflow-hidden b" >
+                  <img src="https://i.etsystatic.com/15970521/r/il/5f9a18/6150992917/il_570xN.6150992917_7nhy.jpg" alt="shop" />
+                  <div class="card-body d-flex justify-content-start align-items-center">
+                      <div class="shop-logo-wrapper p-2">
+                          <img src="https://i.etsystatic.com/isla/9fab80/66582099/isla_75x75.66582099_hbq2m7yx.jpg?version=0" alt="company-logo">
+                        </div>
+                        <p class="shop-title mb-0 fw-bold">CrumandCo</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card discover-shop-wrapper br overflow-hidden b" >
+                  <img src="https://i.etsystatic.com/26119797/r/il/6dffdb/2688569138/il_570xN.2688569138_haf1.jpg" alt="shop" />
+                  <div class="card-body d-flex justify-content-start align-items-center">
+                      <div class="shop-logo-wrapper p-2">
+                          <img src="https://i.etsystatic.com/isla/9fab80/66582099/isla_75x75.66582099_hbq2m7yx.jpg?version=0" alt="company-logo">
+                        </div>
+                        <p class="shop-title mb-0 fw-bold">CrumandCo</p>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <a href="#" class='text-decoration-none'>
+                <div class="card discover-shop-wrapper br overflow-hidden b" >
+                  <img src="https://i.etsystatic.com/20495293/r/il/c5e8d9/5502514524/il_570xN.5502514524_3kyl.jpg" alt="shop" />
+                  <div class="card-body d-flex justify-content-start align-items-center">
+                      <div class="shop-logo-wrapper p-2">
+                          <img src="https://i.etsystatic.com/isla/9fab80/66582099/isla_75x75.66582099_hbq2m7yx.jpg?version=0" alt="company-logo">
+                        </div>
+                        <p class="shop-title mb-0 fw-bold">CrumandCo</p>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--------------------------------------FAQ ------------------------------------->
+  <section class="faq" id='faq'>
+    <div class="container">
+      <p class='text-center faq-title'>What is Esty UK?</p>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Why is the moon sometimes out during the day?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Why is the sky blue?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+          <div class="accordion-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!----------------------------------------------------------- -->
+
+<script>
+  const left = document.querySelector('.left');
+const right = document.querySelector('.right');
+const track = document.querySelector('.track');
+
+let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+let index = 0;
+let sumOfRight = 0;
+let sumOfLeft = 0;
+
+window.addEventListener('resize', () => {
+  carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+});
+
+right.addEventListener('click', function () {
+  index++;
+  left.classList.add('show');
+  sumOfRight = sumOfRight + carouselWidth;
+
+  if (sumOfRight + carouselWidth < track.offsetWidth) {
+    track.style.transform = track.style.transform + `translate(-${carouselWidth}px)`;
+  } else {
+    track.style.transform = `translate(-${track.offsetWidth - carouselWidth}px)`;
+  }
+
+  if (track.offsetWidth - index * carouselWidth < carouselWidth) {
+    right.classList.add('hide');
+  }
+});
+
+left.addEventListener('click', function () {
+  sumOfLeft = sumOfRight - carouselWidth;
+
+  if (sumOfLeft >= carouselWidth) {
+    track.style.transform = track.style.transform + `translate(${carouselWidth}px)`;
+  } else {
+    track.style.transform = `translate(-${0}px)`;
+  }
+
+  index--;
+  right.classList.remove('hide');
+  sumOfRight -= carouselWidth;
+  if (index === 0) {
+    left.classList.remove('show');
+  }
+});
+</script>
+<!--------------------------------------Footer ------------------------------------->
+<footer id="footer" class="footer position-relative light-background">
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-5 col-md-12 footer-about">
+        <a href="#" class="logo d-flex align-items-center text-decoration-none">
+          <span class="sitename">Esty</span>
+        </a>
+        <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+        <div class="social-links d-flex mt-4">
+          <a class='text-decoration-none' href=""><i class="bi bi-twitter-x"></i></a>
+          <a class='text-decoration-none' href=""><i class="bi bi-facebook"></i></a>
+          <a class='text-decoration-none' href=""><i class="bi bi-instagram"></i></a>
+          <a class='text-decoration-none' href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a class='text-decoration-none' href="#">Etsy, Inc.</a></li>
+          <li><a class='text-decoration-none' href="#">Policies</a></li>
+          <li><a class='text-decoration-none' href="#">Investors</a></li>
+          <li><a class='text-decoration-none' href="#">Impact</a></li>
+          <li><a class='text-decoration-none' href="#">Legal imprint</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Our Services</h4>
+        <ul>
+          <li><aclass='text-decoration-none'  href="#">Gift cards</a></li>
+          <li><a class='text-decoration-none' href="#">Esty Registry</a></li>
+          <li><a class='text-decoration-none' href="#">Sell on Esty</a></li>
+          <li><a class='text-decoration-none' href="#">Sitemap</a></li>
+          <li><a class='text-decoration-none' href="#">Esty UK </a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact Us</h4>
+        <p>A108 Adam Street</p>
+        <p>New York, NY 535022</p>
+        <p>United States</p>
+        <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+        <p><strong>Email:</strong> <span>info@example.com</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="sitename">Esty</strong> <span>All Rights Reserved</span></p>
+  </div>
+</footer>
+
+</body>
+    <script src="./script.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+    <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+    <script src="./js.js"></script>
+  </body>
+</html>
